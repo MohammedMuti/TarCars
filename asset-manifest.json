@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TarCars/static/css/main.fff54091.css",
-    "main.js": "/TarCars/static/js/main.23b96c4d.js",
+    "main.js": "/TarCars/static/js/main.cb4131ba.js",
     "static/media/videoplayback.mp4": "/TarCars/static/media/videoplayback.a8e1a6ee5cbfdace01b2.mp4",
     "static/media/banner4.webp": "/TarCars/static/media/banner4.4a9b5b2d326f1c41447a.webp",
     "static/media/carBanner.jpg": "/TarCars/static/media/carBanner.c252634ff92087fbccc0.jpg",
@@ -15,10 +15,10 @@
     "static/media/car-painting.png": "/TarCars/static/media/car-painting.699bffe33da6e8eb08b4.png",
     "index.html": "/TarCars/index.html",
     "main.fff54091.css.map": "/TarCars/static/css/main.fff54091.css.map",
-    "main.23b96c4d.js.map": "/TarCars/static/js/main.23b96c4d.js.map"
+    "main.cb4131ba.js.map": "/TarCars/static/js/main.cb4131ba.js.map"
   },
   "entrypoints": [
     "static/css/main.fff54091.css",
-    "static/js/main.23b96c4d.js"
+    "static/js/main.cb4131ba.js"
   ]
 }
