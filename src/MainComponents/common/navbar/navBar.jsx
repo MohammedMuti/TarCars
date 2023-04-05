@@ -37,7 +37,7 @@ const NavBar = () => {
         <nav>
           {/* ---------Nav Left side------------  */}
           <div className="nav-logo">
-            <Link className="title" to={"/Tarcars"}>
+            <Link className="title" to={"/"}>
               <span>TC</span>
               <h1>TarCars</h1>
             </Link>
