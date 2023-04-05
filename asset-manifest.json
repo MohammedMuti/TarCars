@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Tarcars/static/css/main.2ce642c9.css",
+    "main.js": "/Tarcars/static/js/main.62e2efd2.js",
+    "static/media/videoplayback.mp4": "/Tarcars/static/media/videoplayback.a8e1a6ee5cbfdace01b2.mp4",
+    "static/media/banner4.webp": "/Tarcars/static/media/banner4.4a9b5b2d326f1c41447a.webp",
+    "static/media/carBanner.jpg": "/Tarcars/static/media/carBanner.c252634ff92087fbccc0.jpg",
+    "static/media/2920125.webp": "/Tarcars/static/media/2920125.51bb8f3d3b1a56837f88.webp",
+    "static/media/car.png": "/Tarcars/static/media/car.ee9c91269df6398ee9ba.png",
+    "static/media/tires.png": "/Tarcars/static/media/tires.3a024cac47142a00ef8c.png",
+    "static/media/car-service.png": "/Tarcars/static/media/car-service.b59bce43419da81c376b.png",
+    "static/media/air-conditioner.png": "/Tarcars/static/media/air-conditioner.5d666f98ea1d80b4035f.png",
+    "static/media/vacuum.png": "/Tarcars/static/media/vacuum.7a55028765c603f94409.png",
+    "static/media/car-wash.png": "/Tarcars/static/media/car-wash.c6791e253c5526c67ab1.png",
+    "static/media/car-painting.png": "/Tarcars/static/media/car-painting.699bffe33da6e8eb08b4.png",
+    "index.html": "/Tarcars/index.html",
+    "main.2ce642c9.css.map": "/Tarcars/static/css/main.2ce642c9.css.map",
+    "main.62e2efd2.js.map": "/Tarcars/static/js/main.62e2efd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ce642c9.css",
+    "static/js/main.62e2efd2.js"
+  ]
+}
