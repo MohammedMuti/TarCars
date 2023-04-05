@@ -1,0 +1,96 @@
+@import "../../variable/variable.scss";
+
+.div {
+  position: sticky;
+  background-color: $main;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    .nav-logo {
+      padding-left: 3rem;
+      a {
+        display: flex;
+        align-items: center;
+        span {
+          background-color: $orange;
+          font-size: 3rem;
+          padding: 0.6rem 1rem;
+          margin-right: 1rem;
+          font-family: "Rockwell";
+        }
+        h1 {
+          font-size: 3rem;
+          color: white;
+        }
+      }
+    }
+    .nav-content {
+      .navbar {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        font-size: 2.3rem;
+        list-style-type: none;
+        gap: 5px;
+
+        a {
+          color: $bald;
+          li {
+            padding: 0.7rem 1.5rem;
+            transition: 0.5s ease;
+            &:hover {
+              background-color: $orange;
+            }
+          }
+
+          &:hover {
+            color: black;
+          }
+        }
+      }
+      .navbar.active {
+        display: flex;
+      }
+      svg {
+        display: none;
+        font-size: 3rem;
+        padding-right: 2rem;
+      }
+      @media (max-width: 850px) {
+        svg {
+          display: block;
+        }
+        .navbar {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          position: absolute;
+          top: 99%;
+          left: 0;
+          right: 0;
+          background-color: white;
+          border-top: 1px solid rgb(179, 179, 179);
+          border-bottom: 1px solid rgb(179, 179, 179);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          transition: 0.2s linear;
+        }
+        .navbar.active {
+          padding-left: 2rem;
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          transition: 0.2s linear;
+          a {
+            color: black;
+
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

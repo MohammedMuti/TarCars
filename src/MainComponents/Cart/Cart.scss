@@ -1,0 +1,154 @@
+@import "../variable/variable.scss";
+
+.cart {
+  padding: 5rem 10%;
+  width: 100%;
+  @media (max-width: 600px) {
+    padding: 5rem 5%;
+  }
+  .cart-container {
+    .cart-status {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+    .cart-heading {
+      border-bottom: 2px solid rgb(221, 221, 221);
+      padding-bottom: 1rem;
+      h2 {
+        font-size: 4rem;
+      }
+    }
+    .cart-content {
+      p {
+        font-size: 1.5rem;
+      }
+      .cart-content-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+
+        @media (max-width: 600px) {
+          display: block;
+        }
+
+        .cart-items {
+          width: 50rem;
+          @media (max-width: 600px) {
+            width: 100%;
+          }
+          .cart-item {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            img {
+              width: 100%;
+              height: 25rem;
+              padding-bottom: 1rem;
+            }
+            h2 {
+              font-size: 2rem;
+            }
+            p {
+              padding-bottom: 1rem;
+              font-size: 1.8rem;
+            }
+            button {
+              height: 3.5rem;
+              background-color: $orange;
+              border: none;
+              font-size: 1.8rem;
+              transition: 0.3s ease-out;
+              cursor: pointer;
+              &:hover {
+                background-color: $orange-l;
+              }
+            }
+          }
+        }
+
+        .cart-proceed {
+          padding: 2rem;
+          .proceed-items {
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 2rem;
+            .itemImg {
+              img {
+                width: 20rem;
+                height: 12rem;
+              }
+            }
+            .itemContent {
+              font-size: 1.3rem;
+
+              button {
+                margin-top: 1rem;
+                height: 3.5rem;
+                padding: 0 1rem;
+                background-color: $orange;
+                border: none;
+                font-size: 1.8rem;
+                transition: 0.3s ease-out;
+                cursor: pointer;
+                &:hover {
+                  background-color: $orange-l;
+                }
+              }
+            }
+          }
+
+          .proceed-details {
+            h2 {
+              font-size: 2rem;
+              border-bottom: 1px solid lightgray;
+            }
+
+            table {
+              width: 100%;
+              tr {
+                td {
+                  font-size: 1.7rem;
+                }
+              }
+            }
+            .total {
+              border-top: 1px solid lightgray;
+              font-size: 2rem;
+              font-weight: 600;
+              display: flex;
+              justify-content: space-between;
+            }
+
+            .placeOrder {
+              display: flex;
+              flex-direction: column;
+              margin-top: 3rem;
+              text-align: center;
+
+              p {
+                background-color: #eee;
+                padding: 0.5rem 0;
+                margin: 1rem 0;
+              }
+
+              button {
+                width: 100%;
+                border: none;
+                padding: 1rem 0;
+                font-size: 1.8rem;
+                color: white;
+                background-color: $main;
+                cursor: pointer;
+
+                &:hover {
+                  background-color: $main-l;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

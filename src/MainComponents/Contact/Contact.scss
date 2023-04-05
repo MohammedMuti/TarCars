@@ -1,0 +1,72 @@
+@import "../variable/variable.scss";
+
+.contact {
+  padding: 5rem 10%;
+  @media (max-width: 600px) {
+    padding: 5rem 5%;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .map {
+      flex: 1 1 41rem;
+      width: 100%;
+      min-height: 30rem;
+    }
+
+    form {
+      flex: 1 1 41rem;
+      background: #fff;
+      padding: 2rem;
+
+      .box {
+        margin: 0.7rem 0;
+        width: 100%;
+        padding: 1.5rem 0;
+        border: none;
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.3);
+        font-size: 1.6rem;
+        color: #666;
+        outline: none;
+
+        &:focus {
+          border-color: $orange;
+        }
+      }
+
+      .btn {
+        padding: 0.5rem 1rem;
+        background-color: $orange;
+        font-size: 2rem;
+        border: none;
+        cursor: pointer;
+        margin-top: 1rem;
+      }
+
+      textarea {
+        height: 15rem;
+        resize: none;
+      }
+
+      h3 {
+        font-size: 2.5rem;
+        color: #111;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+/* id="recaptcha-token" */
+
+@media (max-width: 410px) {
+  form {
+    width: 70%;
+  }
+  .captcha {
+    transform: scale(0.7);
+  }
+}

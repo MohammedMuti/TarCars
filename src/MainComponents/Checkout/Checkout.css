@@ -1,0 +1,80 @@
+.checkout .header {
+  width: 100%;
+  padding: 0 5%;
+}
+
+.checkout .header h2 {
+  border-bottom: 1px solid lightgray;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.checkout .checkoutContent {
+  padding: 5rem 10%;
+}
+
+@media (max-width: 600px) {
+  .checkout .checkoutContent {
+    padding: 5rem 5%;
+  }
+}
+
+.checkout .checkoutContent .wrapper {
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+}
+
+.checkout .checkoutContent .wrapper .payment {
+  padding: 2rem;
+}
+
+.checkout .checkoutContent .wrapper .payment h2 {
+  font-size: 2.7rem;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 2rem;
+}
+
+.checkout .checkoutContent .wrapper .payment .methods {
+  padding-left: 3rem;
+}
+
+.checkout .checkoutContent .wrapper .payment .methods .method {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.checkout .checkoutContent .wrapper .payment .methods .method h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.checkout .checkoutContent .wrapper .payment .methods .method p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.checkout .checkoutContent .wrapper .confirmBtn {
+  background-color: #eee;
+  padding: 1rem 0rem;
+  padding-left: 5rem;
+}
+
+.checkout .checkoutContent .wrapper .confirmBtn button {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  background-color: #ffb400;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout .checkoutContent .wrapper .confirmBtn button:disabled {
+  background-color: #ffcf60;
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=Checkout.css.map */

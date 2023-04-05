@@ -1,0 +1,72 @@
+@import "../variable/variable.scss";
+
+.checkout {
+  .header {
+    width: 100%;
+    padding: 0 5%;
+    h2 {
+      border-bottom: 1px solid lightgray;
+      font-size: 4rem;
+      text-align: center;
+    }
+  }
+  .checkoutContent {
+    padding: 5rem 10%;
+    @media (max-width: 600px) {
+      padding: 5rem 5%;
+    }
+
+    .wrapper {
+      border: 1px solid lightgray;
+      border-radius: 1rem;
+      .payment {
+        padding: 2rem;
+        h2 {
+          font-size: 2.7rem;
+          border-bottom: 1px solid lightgray;
+          margin-bottom: 2rem;
+        }
+
+        .methods {
+          padding-left: 3rem;
+          .method {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 2rem;
+            gap: 2rem;
+
+            input {
+            }
+
+            h3 {
+              font-size: 2.5rem;
+              font-weight: 500;
+            }
+            p {
+              font-size: 2rem;
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
+      .confirmBtn {
+        background-color: #eee;
+        padding: 1rem 0rem;
+        padding-left: 5rem;
+
+        button {
+          padding: 0.5rem 1rem;
+          font-size: 2rem;
+          background-color: $orange;
+          border: none;
+          cursor: pointer;
+
+          &:disabled {
+            background-color: $orange-l;
+            cursor: not-allowed;
+          }
+        }
+      }
+    }
+  }
+}

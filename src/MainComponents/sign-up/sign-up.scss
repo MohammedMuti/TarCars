@@ -1,0 +1,74 @@
+@import "../variable/variable.scss";
+
+.form {
+  display: flex;
+  justify-content: center;
+  //   align-items: center;
+  padding-top: 4rem;
+  .box {
+    width: 40rem;
+    background-color: $bald;
+    h2 {
+      text-align: center;
+      font-size: 3rem;
+      padding-top: 3rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 3rem;
+      label {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      input {
+        border: none;
+        background-color: $bald;
+        height: 3rem;
+        outline: none;
+        font-size: 2rem;
+        // width: 50rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid black;
+        &:-webkit-autofill {
+          background-color: $bald;
+        }
+      }
+      input:autofill {
+        background-color: $bald;
+      }
+      .submit {
+        margin-top: 2rem;
+        cursor: pointer;
+        font-weight: 600;
+        height: 3.5rem;
+        background-color: $main;
+        border: none;
+        transition: 100ms ease-in;
+        &:hover {
+          background-color: $orange;
+        }
+      }
+      p {
+        font-size: 1.5rem;
+      }
+      a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        height: 3.5rem;
+        align-items: center;
+        background-color: $main;
+        transition: 100ms ease-in;
+        &:hover {
+          background-color: $orange;
+        }
+        span {
+          font-size: 2rem;
+          color: black;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

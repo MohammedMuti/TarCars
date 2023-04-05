@@ -1,0 +1,130 @@
+.div {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #6c5ebf;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.div nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.div nav .nav-logo {
+  padding-left: 3rem;
+}
+
+.div nav .nav-logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div nav .nav-logo a span {
+  background-color: #ffb400;
+  font-size: 3rem;
+  padding: 0.6rem 1rem;
+  margin-right: 1rem;
+  font-family: "Rockwell";
+}
+
+.div nav .nav-logo a h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.div nav .nav-content .navbar {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.3rem;
+  list-style-type: none;
+  gap: 5px;
+}
+
+.div nav .nav-content .navbar a {
+  color: #e8f0fe;
+}
+
+.div nav .nav-content .navbar a li {
+  padding: 0.7rem 1.5rem;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.div nav .nav-content .navbar a li:hover {
+  background-color: #ffb400;
+}
+
+.div nav .nav-content .navbar a:hover {
+  color: black;
+}
+
+.div nav .nav-content .navbar.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div nav .nav-content svg {
+  display: none;
+  font-size: 3rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 850px) {
+  .div nav .nav-content svg {
+    display: block;
+  }
+  .div nav .nav-content .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  .div nav .nav-content .navbar.active {
+    padding-left: 2rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  .div nav .nav-content .navbar.active a {
+    color: black;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

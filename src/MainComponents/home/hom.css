@@ -1,0 +1,254 @@
+.classic-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.classic-btn:hover {
+  background-color: #ffb400;
+  color: black;
+}
+
+.hom {
+  width: 100%;
+  height: 90vh;
+  background: url(../../images/banner/2920125.webp);
+  background-size: cover;
+  background-position: 25%;
+  padding-left: 3rem;
+}
+
+.hom .main-section .main-content h1 {
+  font-size: 4rem;
+  padding-top: 20rem;
+  color: #eee;
+}
+
+.hom .main-section .main-content h2 {
+  font-size: 4rem;
+  color: #ffb400;
+}
+
+.hom .main-section .main-content p {
+  padding-top: 1rem;
+  max-width: 58rem;
+  font-size: 2rem;
+  color: gray;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.hom .main-section .main-content .classic-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 2rem;
+  background-color: #ffb400;
+  color: black;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.hom .main-section .main-content .classic-btn:hover {
+  background-color: #ffb400;
+  color: black;
+}
+
+.padding {
+  padding: 5rem 10%;
+}
+
+@media (max-width: 600px) {
+  .padding {
+    padding: 5rem 5%;
+  }
+}
+
+.padding .about-us .about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.padding .about-us .about-container .video {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.padding .about-us .about-container .video video {
+  width: 100%;
+}
+
+.padding .about-us .about-container .about-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.padding .about-us .about-container .about-content h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.padding .about-us .about-container .about-content p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  word-spacing: 0.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.padding .about-us .about-container .about-content a {
+  margin-top: 2rem;
+}
+
+.padding .about-us .aboutBlocks {
+  margin-top: 5rem;
+}
+
+.padding .about-us .aboutBlocks .blockBoxes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(22rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 2rem;
+}
+
+.padding .about-us .aboutBlocks .blockBoxes .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eee;
+  padding: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.padding .about-us .aboutBlocks .blockBoxes .box h2 {
+  font-size: 3rem;
+}
+
+.padding .about-us .aboutBlocks .blockBoxes .box span {
+  font-size: 1.8rem;
+  color: gray;
+  margin-top: 5px;
+}
+
+.services-home {
+  padding: 5rem 10%;
+  background-color: #eee;
+}
+
+@media (max-width: 600px) {
+  .services-home {
+    padding: 5rem 5%;
+  }
+}
+
+.services-home .service-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.services-home .service-container .service-box {
+  padding: 3rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.services-home .service-container .service-box img {
+  width: 7rem;
+}
+
+.services-home .service-container .service-box img:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.services-home .service-container .service-box h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.priceList {
+  background: url(../../images/background/carBanner.jpg);
+  padding: 5rem 10%;
+}
+
+@media (max-width: 600px) {
+  .priceList {
+    padding: 5rem 5%;
+  }
+}
+
+.priceList .heading h1 {
+  color: #6c5ebf;
+}
+
+.priceList .priceTable table {
+  font-size: 3rem;
+  width: 100%;
+}
+
+.priceList .priceTable table th {
+  text-align: start;
+  color: #ffb400;
+  font-size: 3.5rem;
+}
+
+.priceList .priceTable table td {
+  font-weight: 600;
+  color: #eee;
+}
+
+.brands {
+  padding: 5rem 10%;
+}
+
+@media (max-width: 600px) {
+  .brands {
+    padding: 5rem 5%;
+  }
+}
+
+.brands .brandContainer {
+  padding: 5rem 0;
+}
+
+.brands .brandContainer .brandImg img {
+  width: 15rem;
+}
+
+@media (max-width: 600px) {
+  .brands .brandContainer .brandImg img {
+    width: 10rem;
+  }
+}
+
+.contactWrapper {
+  background-color: #111;
+}
+
+.contactWrapper .heading h1 {
+  color: white;
+}
+/*# sourceMappingURL=hom.css.map */

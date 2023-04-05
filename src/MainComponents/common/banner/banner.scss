@@ -1,0 +1,47 @@
+@import "../../variable/variable.scss";
+
+.banner {
+  background: url(../../../images/banner/banner4.webp);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .banner-content {
+    .banner-title {
+      h1 {
+        color: $orange;
+        font-size: 4rem;
+      }
+    }
+  }
+}
+.breadcrumbs {
+  padding-top: 5rem;
+  padding-left: 10%;
+  @media (max-width: 600px) {
+    padding-left: 5%;
+  }
+  .subs {
+    display: flex;
+    align-items: center;
+    a {
+      p {
+        padding-bottom: 5px;
+        margin-right: 1rem;
+        font-size: 2rem;
+        color: #000;
+      }
+      .activeC {
+        color: rgb(185, 185, 185);
+      }
+    }
+    svg {
+      font-size: 1.5rem;
+      color: black;
+      margin-right: 1rem;
+    }
+  }
+}

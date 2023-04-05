@@ -1,0 +1,101 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 4rem;
+}
+
+.form .box {
+  width: 40rem;
+  background-color: #e8f0fe;
+}
+
+.form .box h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 3rem;
+}
+
+.form .box form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3rem;
+}
+
+.form .box form label {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form .box form input {
+  border: none;
+  background-color: #e8f0fe;
+  height: 3rem;
+  outline: none;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid black;
+}
+
+.form .box form input:-webkit-autofill {
+  background-color: #e8f0fe;
+}
+
+.form .box form input:autofill {
+  background-color: #e8f0fe;
+}
+
+.form .box form .submit {
+  margin-top: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  height: 3.5rem;
+  background-color: #6c5ebf;
+  border: none;
+  -webkit-transition: 100ms ease-in;
+  transition: 100ms ease-in;
+}
+
+.form .box form .submit:hover {
+  background-color: #ffb400;
+}
+
+.form .box form p {
+  font-size: 1.5rem;
+}
+
+.form .box form a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  height: 3.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #6c5ebf;
+  -webkit-transition: 100ms ease-in;
+  transition: 100ms ease-in;
+}
+
+.form .box form a:hover {
+  background-color: #ffb400;
+}
+
+.form .box form a span {
+  font-size: 2rem;
+  color: black;
+  font-weight: 600;
+}
+/*# sourceMappingURL=sign-up.css.map */

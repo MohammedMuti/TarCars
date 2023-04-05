@@ -1,0 +1,456 @@
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.margin {
+  padding: 0px 10%;
+  background-color: #faead9;
+}
+
+.home {
+  width: 100%;
+  background-color: white;
+  /* padding: 0px 20px; */
+}
+
+.Image_banner {
+  width: 100%;
+}
+
+/* .img-container {
+  background: url(../../images/8227.jpg);
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 800px) {
+  .img-container {
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: auto;
+  }
+} */
+
+/* ------------------------------First-Container--------------------------------- */
+
+/* ---------------Booking----------------- */
+
+.First-Container {}
+
+.First-Container .Booking .heading {
+  font-size: 3rem;
+
+  margin-bottom: 80px;
+  position: relative;
+  color: rgb(60, 60, 60);
+}
+
+.First-Container .Booking .heading::after {
+  content: "";
+  width: 90px;
+  height: 2px;
+  background: #2e51a2;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+.First-Container .Booking .row-1 {
+  padding: 5rem 10%;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+  margin: 0 30px;
+}
+
+.First-Container .Booking .row-1 .row-Content:hover {
+  transform: scale(1.1);
+}
+
+.First-Container .Booking .row-1 a {
+  text-decoration: none;
+  text-align: center;
+  border: solid 1px #ff9d56;
+  padding: 2rem 35px;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+}
+
+/* ---------------quick-access----------------- */
+
+.First-Container .quick-access {
+  margin-top: 100px;
+}
+
+.First-Container .quick-access p {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  position: relative;
+  color: rgb(60, 60, 60);
+}
+
+.First-Container .quick-access p::after {
+  content: "";
+  width: 90px;
+  height: 2px;
+  background: #2e51a2;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+.First-Container .quick-access form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.First-Container .quick-access form input {
+  width: 30rem;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.First-Container .quick-access .center-form {
+  display: flex;
+  justify-content: center;
+}
+
+.First-Container .form {
+  border: solid 1px #ff9d56;
+  padding: 20px;
+  border-radius: 5px;
+  width: 35rem;
+}
+
+.First-Container .quick-access button {
+  text-align: center;
+  width: 30rem;
+  height: 40px;
+  font-size: 1.5rem;
+  background-color: #eb6100;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.First-Container .quick-access button:hover {
+  background-color: #ff9d56;
+}
+
+/* ------------------------------Second-Container--------------------------------- */
+
+.Second-Container {
+  margin-top: 100px;
+}
+
+/* -----------------Door-step-service---------------- */
+
+.Second-Container .door-step-service .heading {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  position: relative;
+  color: rgb(60, 60, 60);
+}
+
+.Second-Container .door-step-service .heading::after {
+  content: "";
+  width: 90px;
+  height: 2px;
+  background: #2e51a2;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+.Second-Container .door-step-service .second-center .working-div {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 0fr));
+  justify-content: center;
+  gap: 2rem;
+}
+
+.Second-Container .door-step-service .working-div .workings {
+  text-align: center;
+  background: rgb(236, 236, 236);
+  padding: 30px;
+  margin: 0px 20px;
+  border-radius: 50%;
+}
+
+.Second-Container .door-step-service .working-div .workings img {
+  width: 70px;
+  height: 70px;
+}
+
+/* -----------------Advantages------------------ */
+
+.Second-Container .Advantages {
+  width: 600px;
+}
+
+.Second-Container .Advantages .heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ----------------------------Price list-------------------------- */
+.price-list {
+  margin-top: 100px;
+}
+
+.price-list .header {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  position: relative;
+  color: rgb(60, 60, 60);
+}
+
+.price-list .header::after {
+  content: "";
+  width: 90px;
+  height: 2px;
+  background: #2e51a2;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+}
+
+.table table {
+  width: 1200px;
+
+  border-collapse: collapse;
+}
+
+.table table tr td {
+  /* width: 800px; */
+
+  font-size: 2rem;
+  padding: 16px;
+}
+
+.table table .shadow {
+  background: rgba(196, 196, 196, 0.5);
+}
+
+.table table .shadow1 {
+  font-weight: bold;
+  background: rgba(196, 196, 196, 0.5);
+}
+
+/* --------------------------------Packages----------------------------------- */
+
+.packages {
+  margin-top: 100px;
+}
+
+.packages .header {
+  font-size: 2rem;
+  position: relative;
+  color: rgb(60, 60, 60);
+  margin-bottom: 50px;
+}
+
+.packages .header::after {
+  content: "";
+  width: 90px;
+  height: 2.4px;
+  background: #2e51a2;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+.packages .p-main-row {
+  border-top: solid 1px rgb(151, 151, 151);
+  border-left: solid 1px rgb(151, 151, 151);
+  border-right: solid 1px rgb(151, 151, 151);
+}
+
+.packages .p-row {
+  display: flex;
+  border-bottom: solid 1px rgb(151, 151, 151);
+  padding: 30px 0px;
+}
+
+.packages .p-row .content {
+  margin: 10px;
+}
+
+.packages .p-row .img {
+  padding: 0px 20px;
+}
+
+@media (max-width: 950px) {
+  .packages .p-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .packages .p-row .img img{
+        width: 100px;
+    
+    } */
+}
+
+.packages .p-row .img img {
+  width: 15rem;
+}
+
+.packages .p-row .content .details {
+  color: rgba(0, 0, 0, 0.687);
+}
+
+.packages .p-row .content .points {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.packages .p-row .content ul {
+  padding-left: 20px;
+  /* display: flex; */
+}
+
+.packages .p-row .content ul li {
+  padding: 5px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.687);
+}
+
+/* ---------------------------------Brands--------------------------------- */
+
+.Brands {
+  margin-top: 150px;
+}
+
+.Brands p {
+  font-size: 3rem;
+  position: relative;
+  color: rgb(60, 60, 60);
+}
+
+.Brands p::after {
+  content: "";
+  width: 90px;
+  height: 2px;
+  background: #2e51a2;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+.Brands .Brand-logos .logo-div .logo-row {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+}
+
+.Brands .Brand-logos .logo-div .logo-row .logos {
+  display: flex;
+  justify-content: center;
+}
+
+.Brands .Brand-logos .logo-div .logo-row .logos img {
+  width: 100px;
+}
+
+/* -------------------------------Third-Container--------------------------- */
+
+.Third-Container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+/* -------------------Review------------------- */
+
+.Third-Container {
+  margin-bottom: 100px;
+}
+
+.Third-Container .review {
+  width: 100%;
+}
+
+.Third-Container .review .heading {
+  font-size: 3rem;
+  margin-bottom: 80px;
+  position: relative;
+  color: rgb(60, 60, 60);
+}
+
+.Third-Container .review .heading::after {
+  content: "";
+  width: 90px;
+  height: 2px;
+  background: #2e51a2;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+.Third-Container .review .review-center {
+  display: flex;
+  justify-content: center;
+}
+
+.Third-Container .review-center .review-1 {
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
+  padding-top: 50px;
+  width: 650px;
+  box-shadow: 0px 0px 20px 10px rgb(124, 124, 124);
+  padding: 70px 20px;
+}
+
+.Third-Container .review-center .review-1 .review-head {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 70px;
+}
+
+.Third-Container .review-center .review-1 .para {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.Third-Container .review-center .review-1 .by {
+  text-align: center;
+  font-size: 1.8rem;
+}
