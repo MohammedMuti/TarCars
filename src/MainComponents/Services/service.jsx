@@ -106,7 +106,7 @@ const Services = () => {
                   </tr>
                 </tbody>
               </table>
-              <Link to="/Tarcars/cart">Go to Cart</Link>
+              <Link to="/cart">Go to Cart</Link>
             </>
           ) : (
             <h1 style={{ color: "lightgray", fontSize: "3rem" }}>

@@ -133,7 +133,7 @@ const Cart = () => {
                       <div className="placeOrder">
                         <p>{userCart?.length} Item selected for order</p>
                         <Link
-                          to="/Tarcars/checkout"
+                          to="/checkout"
                           state={userCart ? handleCartTotal(userCart) : 0}
                         >
                           <button>PLACE ORDER</button>

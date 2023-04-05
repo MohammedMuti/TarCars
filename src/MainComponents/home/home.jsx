@@ -27,7 +27,7 @@ class Home extends Component {
                 debitis ex accusantium quam in autem eligendi reiciendis
                 repellendus quaerat ut!
               </p>
-              <Link to="/Tarcars/about" className="classic-btn">
+              <Link to="/about" className="classic-btn">
                 Know More
               </Link>
             </div>
@@ -41,7 +41,7 @@ class Home extends Component {
             <h1>Services</h1>
             <div className="service-container">
               <div className="service-box">
-                <Link to="/Tarcars/services">
+                <Link to="/services">
                   <img
                     src={require("../../images/servicesIcon/car-service.png")}
                     alt=""
@@ -50,7 +50,7 @@ class Home extends Component {
                 </Link>
               </div>
               <div className="service-box">
-                <Link to="/Tarcars/services">
+                <Link to="/services">
                   <img
                     src={require("../../images/servicesIcon/car-painting.png")}
                     alt=""
@@ -59,7 +59,7 @@ class Home extends Component {
                 </Link>
               </div>
               <div className="service-box">
-                <Link to="/Tarcars/services">
+                <Link to="/services">
                   <img
                     src={require("../../images/servicesIcon/air-conditioner.png")}
                     alt=""
@@ -68,7 +68,7 @@ class Home extends Component {
                 </Link>
               </div>
               <div className="service-box">
-                <Link to="/Tarcars/services">
+                <Link to="/services">
                   <img
                     src={require("../../images/servicesIcon/car-wash.png")}
                     alt=""
@@ -77,7 +77,7 @@ class Home extends Component {
                 </Link>
               </div>
               <div className="service-box">
-                <Link to="/Tarcars/services">
+                <Link to="/services">
                   <img
                     src={require("../../images/servicesIcon/tires.png")}
                     alt=""
@@ -86,7 +86,7 @@ class Home extends Component {
                 </Link>
               </div>
               <div className="service-box">
-                <Link to="/Tarcars/services">
+                <Link to="/services">
                   <img
                     src={require("../../images/servicesIcon/vacuum.png")}
                     alt=""
@@ -95,7 +95,7 @@ class Home extends Component {
                 </Link>
               </div>
               <div className="service-box">
-                <Link to="/Tarcars/services">
+                <Link to="/services">
                   <img
                     src={require("../../images/servicesIcon/car-washing.png")}
                     alt=""
@@ -104,7 +104,7 @@ class Home extends Component {
                 </Link>
               </div>
               <div className="service-box">
-                <Link to="/Tarcars/services">
+                <Link to="/services">
                   <img
                     src={require("../../images/servicesIcon/car.png")}
                     alt=""
@@ -373,7 +373,7 @@ class Home extends Component {
                   odio, nam iure deleniti consequuntur laboriosam nulla
                   molestias. In!
                 </p>
-                <Link to="/Tarcars/about" className="classic-btn">
+                <Link to="/about" className="classic-btn">
                   Read More
                 </Link>
               </div>

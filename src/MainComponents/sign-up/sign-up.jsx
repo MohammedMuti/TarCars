@@ -83,7 +83,7 @@ const SignUp = () => {
             ) : null}
             <input type="submit" name="" className="submit" value="Sign Up" />
             <p>Already have an account?</p>
-            <Link to="/Tarcars/login">
+            <Link to="/login">
               <span>Login</span>
             </Link>
           </form>

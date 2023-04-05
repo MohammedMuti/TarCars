@@ -16,7 +16,7 @@ const Banner = (props) => {
       </div>
       <div className="breadcrumbs">
         <div className="subs">
-          <Link to="/Tarcars">
+          <Link to="/">
             <p>Home</p>
           </Link>
           <FontAwesomeIcon icon={faChevronRight} />

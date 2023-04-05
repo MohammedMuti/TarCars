@@ -46,19 +46,19 @@ const NavBar = () => {
           {/* -- ------------Nav Right side-----------  */}
           <div className="nav-content">
             <ul className={click ? "navbar" : "navbar active"}>
-              <Link className="Nav_Link" to={"/Tarcars/services"}>
+              <Link className="Nav_Link" to={"/services"}>
                 <li>Services</li>
               </Link>
-              <Link className="Nav_Link" to={"/Tarcars/cart"}>
+              <Link className="Nav_Link" to={"/cart"}>
                 <li>Track & Pay</li>
               </Link>
-              <Link className="Nav_Link" to={"/Tarcars/orders"}>
+              <Link className="Nav_Link" to={"/orders"}>
                 <li>Orders</li>
               </Link>
-              <Link className="Nav_Link" to={"/Tarcars/about"}>
+              <Link className="Nav_Link" to={"/about"}>
                 <li>About</li>
               </Link>
-              <Link className="Nav_Link" to={"/Tarcars/contact"}>
+              <Link className="Nav_Link" to={"/contact"}>
                 <li>Contact</li>
               </Link>
               {user ? (
@@ -66,7 +66,7 @@ const NavBar = () => {
                   <li>Logout</li>
                 </Link>
               ) : (
-                <Link className="Nav_Link_login" to={"/Tarcars/login"}>
+                <Link className="Nav_Link_login" to={"/login"}>
                   <li>Login</li>
                 </Link>
               )}
