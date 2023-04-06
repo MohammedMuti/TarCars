@@ -2,9 +2,9 @@ import React, { useReducer } from "react";
 import ContextProvider from "./ContextProvider";
 
 const defaulState = {
-  user: JSON.parse(localStorage.getItem("username")) || null,
+  user: JSON.parse(localStorage.getItem("TarcarsUsername")) || null,
   city: "Select City",
-  cart: JSON.parse(localStorage.getItem("cart")) || null,
+  cart: JSON.parse(localStorage.getItem("TarcarsCart")) || null,
 };
 
 const reducer = (state, action) => {

@@ -16,8 +16,8 @@ function App() {
   // console.log(user);
 
   useEffect(() => {
-    localStorage.setItem("username", JSON.stringify(user));
-    localStorage.setItem("cart", JSON.stringify(cart));
+    localStorage.setItem("TarcarsUsername", JSON.stringify(user));
+    localStorage.setItem("TarcarsCart", JSON.stringify(cart));
   }, [user, cart]);
 
   return (
