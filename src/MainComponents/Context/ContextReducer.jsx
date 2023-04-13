@@ -5,6 +5,7 @@ const defaulState = {
   user: JSON.parse(localStorage.getItem("TarcarsUsername")) || null,
   city: "Select City",
   cart: JSON.parse(localStorage.getItem("TarcarsCart")) || null,
+  isFetching: false,
 };
 
 const reducer = (state, action) => {
@@ -15,6 +16,7 @@ const reducer = (state, action) => {
       return {
         ...state,
         user: action.user,
+        isFetching: action.isFetching,
       };
 
     case "ADD_A_CITY":
@@ -22,6 +24,12 @@ const reducer = (state, action) => {
       return {
         ...state,
         city: action.city,
+      };
+
+    case "LOGIN_START":
+      return {
+        ...state,
+        isFetching: action.isFetching,
       };
 
     case "ADD_TO_CART":

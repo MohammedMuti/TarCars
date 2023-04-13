@@ -35,6 +35,21 @@
   margin-bottom: 0.5rem;
 }
 
+.form .box form button {
+  margin-top: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  height: 3.5rem;
+  background-color: #6c5ebf;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.form .box form button:hover {
+  background-color: #ffb400;
+}
+
 .form .box form input {
   border: none;
   background-color: #e8f0fe;
